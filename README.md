@@ -74,7 +74,7 @@ The available filters are:
 ```js
 import Libp2p from 'libp2p'
 import { Websockets } from '@libp2p/websockets'
-import filters from 'libp2p-websockets/filters'
+import * as filters from '@libp2p/websockets/filters'
 import { MPLEX } from 'libp2p-mplex'
 import { NOISE } from 'libp2p-noise'
 
